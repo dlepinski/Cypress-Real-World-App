@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "gxDP1Rnzz",
+      "uuid": "0eca1f27-c671-44ba-9ef5-87ba0b986127",
+      "firstName": "Daniela",
+      "lastName": "Lepinski Souto",
+      "username": "dlepinski",
+      "password": "$2a$10$JQ5gT5USB8XBPPsexOJqju9qsGbc9rI.JELiDuYa4XiQ78pie5gxK",
+      "balance": 100000,
+      "createdAt": "2026-02-19T20:45:57.721Z",
+      "modifiedAt": "2026-02-19T20:45:57.721Z"
     }
   ],
   "contacts": [
@@ -253,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "RXyo_cKqX",
+      "uuid": "57dd0b6f-44f6-451f-a2cf-363f4a72cb0f",
+      "userId": "gxDP1Rnzz",
+      "bankName": "banco teste",
+      "accountNumber": "123456789",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2026-02-19T20:48:34.630Z",
+      "modifiedAt": "2026-02-19T20:48:34.630Z"
     }
   ],
   "transactions": [

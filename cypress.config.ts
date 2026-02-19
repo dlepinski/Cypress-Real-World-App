@@ -65,10 +65,13 @@ export default defineConfig({
   },
   e2e: {
     baseUrl: "http://localhost:3000",
-    specPattern: "cypress/tests/**/*.spec.{js,jsx,ts,tsx}",
+    specPattern: [
+      "cypress/TestesApp/**/*.cy.ts",      // Prioriza os meus testes
+      "cypress/testesProntos/**/*.spec.ts" // Mantém os antigos como backup
+    ],
     supportFile: "cypress/support/e2e.ts",
-    viewportHeight: 1000,
-    viewportWidth: 1280,
+    viewportHeight: 1500,
+    viewportWidth: 2000,
     experimentalRunAllSpecs: true,
     experimentalStudio: true,
     setupNodeEvents(on, config) {
