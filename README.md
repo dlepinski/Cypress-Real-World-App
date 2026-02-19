@@ -21,13 +21,13 @@
   <h3>2. Instalação e Configuração</h3>
   <p>Abra o <strong>terminal do seu sistema (ou Git Bash)</strong>. Recomendo criar uma pasta organizada (como <code>C:/Projetos Teste</code> ou no <code>D:/</code>) e executar cada comando abaixo:</p>
   
-  <p><em>Passo A: Acessar sua pasta de projetos e clonar o repositório</em></p>
+  <p><em>1: Acessar sua pasta de projetos e clonar o repositório</em></p>
   <pre><code>git clone [https://github.com/dlepinski/cypress-realworld-app.git](https://github.com/dlepinski/cypress-realworld-app.git)</code></pre>
 
-  <p><em>Passo B: Entrar na pasta do projeto</em></p>
+  <p><em>2: Entrar na pasta do projeto</em></p>
   <pre><code>cd cypress-realworld-app</code></pre>
 
-  <p><em>Passo C: Instalar as dependências</em></p>
+  <p><em>3: Instalar as dependências</em></p>
   <pre><code>yarn install</code></pre>
 
   <h3>3. Ligando o Servidor (O "Motor" da App)</h3>
@@ -39,7 +39,7 @@
 
   <hr>
 
-  <h2>🧪 Onde encontrar as minhas Automações?</h2>
+  <h2> 🔍 Onde encontrar as minhas Automações?</h2>
   <p>📍 <strong>Localização:</strong> <code>cypress/TestesApp/</code></p>
 
   <p>Os testes estão numerados para seguir o fluxo lógico de uso do sistema:</p>
